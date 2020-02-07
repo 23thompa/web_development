@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+h1, h2 {
+	font-family: serif;
+	border-bottom: thin solid grey;
+	border-bottom-width: thin;
+}
+a {
+	text-decoration: none;
+}
+.italic {
+	font-style: italic;
+}
+.contents {
+	border: thin solid black;
+	background-color: lightgray;
+	width: 300px;
+
+}
+.contents ul {
+list-style-type: none;
+padding-left: 10px;
+text-align: left;
+}
+
+table {
+	width: 500px;
+	margin: auto;
+}
+table, th, td {
+	border: thin solid black;
+	border-collapse: collapse;
+}
+th {
+	background-color: #edb856;
+}
+td {
+	background-color: lightgray;
+}
+caption {
+	font-weight: bold;
+}
+.gallery {
+	list-style-type: none;
+}
+.gallerybox {
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 200px;
+	align-content: center;
+
+}
+.gallerythumb img {
+	width: 200px;
+	height: 100px
+}
